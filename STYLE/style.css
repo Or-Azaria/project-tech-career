@@ -1,0 +1,148 @@
+.header-container input, .header-container select {
+  height: 40px;
+  border: 1px solid black;
+}
+
+.header-container input::-webkit-input-placeholder, .header-container select::-webkit-input-placeholder {
+  color: black;
+}
+
+.header-container input:-ms-input-placeholder, .header-container select:-ms-input-placeholder {
+  color: black;
+}
+
+.header-container input::-ms-input-placeholder, .header-container select::-ms-input-placeholder {
+  color: black;
+}
+
+.header-container input::placeholder, .header-container select::placeholder {
+  color: black;
+}
+
+.header-container .left-side-header .flight-details .right-details img {
+  width: 120px;
+}
+
+.header-container .left-side-header .flight-details .left-details a {
+  color: #1a1a9b;
+}
+
+.header-container .left-side-header .flight-details .left-details .arrow-down {
+  color: #1a1a9b;
+}
+
+.header-container .left-side-header .photos-container img {
+  width: 35px;
+  height: 25px;
+}
+
+.header-container .left-side-header .photos-container img:nth-child(5) {
+  height: 35px;
+}
+
+.header-container .left-side-header .photos-container img:nth-child(6) {
+  height: 35px;
+}
+
+.navbar-container {
+  height: 63px;
+  background-color: brown;
+}
+
+.navbar-container .container-nav {
+  background-color: brown;
+}
+
+.navbar-container .container-nav .ul-of-icons {
+  width: 280px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.navbar-container .container-nav .ul-of-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-container .container-nav .ul-of-icons img {
+  width: 25px;
+}
+
+.navbar-container .container-nav .ul-of-icons .user-icon {
+  font-size: 22px;
+  margin-top: 2px;
+  margin-right: -15px;
+  color: white;
+}
+
+.footer-container .big-footer .footer-logo p {
+  font-size: 12px;
+  color: silver;
+}
+
+.footer-container .big-footer a {
+  text-decoration: none;
+  color: silver;
+  font-size: 15px;
+}
+
+.footer-container .big-footer a:hover {
+  color: brown;
+}
+
+.footer-container .big-footer .img-text {
+  background-image: url("../Precourse Assignment/images/ads.png") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.footer-container .big-footer .img-text h6, .footer-container .big-footer .img-text p {
+  font-size: 13px;
+}
+
+.footer-container .big-footer .img-text button {
+  background-color: orange;
+}
+
+.footer-container .mini-footer-container {
+  width: 100%;
+  height: 30px;
+  font-size: 13px;
+  color: white;
+  background-color: #1f1e1e;
+  margin: 0;
+}
+
+.footer-container .mini-footer-container .right-side-mini, .footer-container .mini-footer-container .left-side-mini {
+  height: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .footer-container {
+    text-align: center;
+  }
+  .footer-container .big-footer {
+    margin: 0;
+  }
+  .footer-container .ul-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-container .img-text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 230px;
+  }
+}
+
+* {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */

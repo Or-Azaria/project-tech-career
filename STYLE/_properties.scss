@@ -1,0 +1,7 @@
+@mixin input {
+    height: 40px;
+    border: 1px solid black;
+    &::placeholder{
+        color: black;
+    }
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="STYLE\style.css">
+</head>
+<body>
+  <!--header container-->
+  <header class="header-container">
+
+<!-- start of nav bar (or) -->
+<nav class="navbar-container navbar-dark container-fluid navbar mb-5 navbar-expand-sm navbar-light align-items-center">
+    <div class="container container-nav">
+      <a class="navbar-brand text-white" href="#">Adantrip</a>
+      <!-- hamburger button for menu on mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-of-ul-both-sides d-flex justify-content-between container">
+      <div class="collapse ulContainer navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ulContainer-li me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bold" href="#">Flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Experiences</a>
+          </li>
+          </ul>
+          <!-- right side of nav bar -->
+          </div>
+        <ul class="d-flex justify-content-evenly ul-of-icons d-sm-flex d-none">
+            <li><a href="#">USD</a></li>
+            <li><a href="#"><img src="./Precourse Assignment/images/united-states.png" alt=“usa”></a></li>
+            <li><i class="user-icon fa-solid fa-circle-user"></i></li>
+            <li class="text-white"><a class="pl-1" href="#"></a>My Account</li>
+        </ul>
+    </div>
+    </div>
+ </nav>
+  <!-- end of nav bar  -->
+    <!--row header container (shelly)-->
+ <div class="row container-fluid justify-content-around">
+     <div class="left-side-header col-12 col-sm-7">
+         <div class="flight-details mb-5 d-flex justify-content-between border-bottom">
+             <div class="left-details">
+                 <h5>
+                     Buenos Aires <i class="fa-solid fa-arrow-right-long"></i> Ile de France
+                 </h5>
+                 <p>round trip, economy, 1 passenger</p>
+                 <p class="mb-0">depart: aug 15, 2019</p>
+                 <p>depart: aug 16, 2019</p>
+                <a class="text-decoration-none" href="#">FLIGHT DETAILS</a> <i class="arrow-down fa-solid fa-angle-down"></i>
+             </div>
+             <div class="right-details d-none d-sm-block">
+                 <img src="./Precourse Assignment/images/iberia.svg" alt="">
+             </div>
+         </div>
+     <div class="passenger-details border-bottom mb-3">
+         <h5>
+             enter passenger details
+         </h5>
+         <p>passenger 1</p>
+         <div class="row">
+             <input class="col-sm-5 col-12 mx-sm-2 mb-4" type="date" name="date" id="">
+             <select class="col-sm-5 col-12 mx-sm-4 mb-4">
+                 <option value="" disabled selected>gender</option>
+                 <option value="">female</option>
+                 <option value="">male</option>
+             </select>
+             
+             <input class="col-sm-5 col-12 mx-sm-2 mb-4" type="text" placeholder="first name">
+             <input class="col-sm-5 col-12 mx-sm-4 mb-4" type="text" placeholder="last name">
+             <input class="col-sm-5 col-12 mx-sm-2 mb-4" type="text" placeholder="passport serial">
+             <select class="col-sm-5 col-12 mx-sm-4 mb-4">
+                <option value="" disabled selected>select country</option>
+            </select>
+         </div>
+     </div>
+     <!-- midlle page part(or)  -->
+        <!-- left side container of main  -->
+             <div class="col-sm-12 col-12 left-side-container">
+             <h5>enter billing information</h5>
+             <p>billing address</p>
+             <div class="row">
+                 <input class="col-sm-5 col-12 mx-sm-2 mb-4" type="text" placeholder="street (line 1)">
+                 <input class="col-sm-5 col-12 mx-sm-4 mb-4" type="text" placeholder="street (line 2)">
+                 <input class="col-sm-5 col-12 mx-sm-2 mb-4" type="text" placeholder="postal code">
+                 <input class="col-sm-5 col-12 mx-sm-4 mb-4" type="text" placeholder="city">
+                 <select class="col-sm-5 col-12 mx-sm-2 mb-4">
+                    <option value="" disabled selected>state/region</option>
+                </select>
+                <select class="col-sm-5 col-12 mx-sm-4 mb-4">
+                    <option value="" disabled selected>select country</option>
+                </select>
+             </div>
+             </div>
+             <!-- this part contuies the lower part of main page section -->
+             <div class="bottom-header mb-5">
+             <p>card details</p>
+             <div class="row">
+                <input class="col-sm-5 col-12 mx-sm-2 mb-4" type="text" placeholder="name on card">
+                  <input class="col-sm-5 col-12 mx-sm-4 mb-3" type="text"
+                placeholder="credit/debit card number">
+             </div>
+             <div class="border-bottom-container">
+             <div class="container p-0 d-sm-flex col-12 justify-content-between border-bottom mb-3">
+                 <div class="row mx-sm-1 col-sm-5 d-flex justify-content-between">
+                     <select class="col-sm-3 col-12  mb-4">
+                        <option value="" disabled selected>(1)jan</option>
+                    </select>
+                    <select class="col-sm-4 col-12 mx-sm-2 mb-4">
+                        <option value="" disabled selected>2018</option>
+                    </select>
+                    <input class="col-sm-3 col-12 mx-sm-1 mb-4" type="text" placeholder="security code">
+            </div>
+            <!--cards images section-->
+         <div class="photos-container mx-sm-5 mx-auto w-sm-50 w-75 h-50 d-flex justify-content-evenly flex-end align-items-center">
+            <img  src="./Precourse Assignment/images/mastercard.png" alt="">
+            <img   src="./Precourse Assignment/images/Visa.png" alt="">
+            <img   src="./Precourse Assignment/images/Visa-electronic.png" alt="">
+            <img   src="./Precourse Assignment/images/discover new.png" alt="">
+            <img   src="./Precourse Assignment/images/maestro.png" alt="">
+            <img   src="./Precourse Assignment/images/AE.png" alt="">
+             </div>
+            </div>
+             <div class="row justify-content-between">
+             <div class="col-sm-8 col-12">
+                     <h5>Total</h5>
+                     <p>by clicking book now button you agree with terms and conditionals and money back gurantee. thank you for trusting our service.</p>
+                 </div>
+                 <div class="col-sm-3 col-12">
+                     <h3>$1907.68</h3>
+                 </div>
+             </div>
+             </div>
+             <button class="btn bg-danger col-11 text-white mx-1">
+                 book now
+             </button>
+             </div>
+ </div>
+ <!-- right side of the page, charges,support and booking(or) -->
+ <div class="right-side-header col-sm-4 col-12 d-flex flex-column justify-content-between">
+     <!-- line 159 is the container for 3 boxes -->
+ <div class="three-top-boxes mb-5">
+    <!-- top box -->
+<div class="container top-box mb-4 p-2 border">
+<h6>booking summary</h6>
+<p>Round Trip, Economy 1 passenger</p>
+<p>Depart: Aug 15, 2019</p>
+<p>Return: Aug 16, 2019</p>
+</div>
+<!-- middle box -->
+<div class="container middle-box mb-4 p-2 border">
+<div class="mx-3"><h6>Charges</h6>
+<p>1 passenger</p>
+</div>
+<div class="container">
+<div class="row border-bottom">
+    <div class="col-6">Economy</div>
+    <div class="col-6">$1907.68</div>
+</div>
+<!-- bottom box -->
+<div class="row">
+    <div class="col-6">Total</div>
+    <div class="col-6">$1907.68</div>
+</div>
+</div>
+</div>
+<div class="container bottom-box p-2 border mb-5">
+<i class="text-danger fa-solid fa-check d-inline"></i> <h6 class="d-inline ms-1"> Manage your bookings!</h6>
+<p> You’re in control of your booking - no registration required.
+</p>
+<i class="text-danger fa-solid fa-check d-inline"></i> <h6 class="d-inline ms-1"> Customer support available 24/7 worldwide!</h6>
+<p> Website and customer support in English and 41 other languages.</p>
+</div>
+</div>
+<div class="container bottom-box-2 p-2 border d-none d-sm-block">
+    <i class="text-danger fa-solid fa-check d-inline"></i> <h6 class="d-inline ms-1"> Manage your bookings!</h6>
+    <p> You’re in control of your booking - no registration required.
+    </p>
+    <i class="text-danger fa-solid fa-check d-inline"></i> <h6 class="d-inline ms-1"> Customer support available 24/7 worldwide!</h6>
+    <p> Website and customer support in English and 41 other languages.</p>
+    </div> 
+</div>
+
+</header>
+<!--end header container-->
+
+<!--footer container (shelly)-->
+<footer class="footer-container bg-light mt-5">
+<!--top footer -->
+<div class="big-footer row justify-content-around mx-sm-4">
+    <div class="footer-logo col-sm-3 col-10 pt-3">
+        <h4 class="fw-bold text-secondary fs-1">adantrip</h4>
+        <p>pellentesque quam suscipit non aptent torquent commodo curae ut aliquet augue tortor cubila lobortis sodales</p>
+        <p>suscipit risus varius torquent aptent velit felis sem himenaeos lacus fermentum potenti facilisi felis vulputate</p>
+    </div>
+    <div class="ul-container col-5 row pt-3">
+    <div class="travel-ul col-sm-4 col-12">
+        <h6>travel mate</h6>
+        <ul class="list-unstyled">
+            <li><a href="#">about travel mate</a></li>
+            <li><a href="#">mobile app</a></li>
+            <li><a href="#">customer support</a></li>
+            <li><a href="#">advertising</a></li>
+            <li><a href="#">jobs</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">terms of use</a></li>
+        </ul>
+    </div>
+    <div class="explore-ul col-sm-4 col-8 ">
+        <h6>explore</h6>
+        <ul class="list-unstyled">
+            <li><a href="#">countries</a></li>
+            <li><a href="#">region</a></li>
+            <li><a href="#">cities</a></li>
+            <li><a href="#">districs</a></li>
+            <li><a href="#">airports</a></li>
+            <li><a href="#">hotels</a></li>
+            <li><a href="#">place of interest</a></li>
+        </ul>
+    </div>
+    <div class="book-ul col-sm-3 col-8">
+        <h6>book</h6>
+        <ul class="list-unstyled">
+            <li><a href="#">apartments</a></li>
+            <li><a href="#">resorts</a></li>
+            <li><a href="#">villas</a></li>
+            <li><a href="#">hostels</a></li>
+            <li><a href="#">B&Bs</a></li>
+            <li><a href="#">guesthouses</a></li>
+            <li><a href="#">hotel chains</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="img-text col-sm-3 col-12 d-flex flex-column justify-content-center text-white">
+        <h6 class="col-10 ">save up to 50% off your next trip</h6>
+        <p class="col-11 ">subscribe to unlock our secret deals</p>
+        <input class="col-12 w-sm-75 w-100 mb-2" type="email" placeholder="Type your e-mail here">
+        <button class="w-50 border fw-bold text-white">GET DEALS</button>
+    </div>
+</div>
+<!-- mini footer -->
+<div class="mini-footer-container h-100 container-fluid row justify-content-around">
+    <div class="right-side-mini col-sm-4 col-11">
+        copyright
+        <i class="fa-regular fa-copyright"></i>
+        <span>adantrip</span> all rights reserved.
+    </div>
+    <div class="left-side-mini col-sm-2 col-5 mx-sm-0 mx-5">
+        <ul class="list-unstyled d-flex justify-content-evenly justify-content-center mb-1">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-google"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li> <i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </div>
+</div> 
+</div>
+</footer> 
+<!--end footer container-->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>

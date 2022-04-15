@@ -1,0 +1,27 @@
+arrow- <i class="fa-solid fa-arrow-right-long"></i>
+arrow down- <i class="fa-solid fa-angle-down"></i>
+profile- <i class="fa-solid fa-circle-user"></i>
+check sign- <i class="fa-solid fa-check"></i>
+copyright- <i class="fa-regular fa-copyright"></i>
+facebook- <i class="fa-brands fa-facebook-f"></i>
+google- <i class="fa-brands fa-google"></i>
+twitter- <i class="fa-brands fa-twitter"></i>
+youtube- <i class="fa-brands fa-youtube"></i>
+instagram- <i class="fa-brands fa-instagram"></i>
+
+    <div class="right-side-mini col-4">
+        copyright
+        <i class="fa-regular fa-copyright"></i>
+        <span>adantrip</span> all rights reserved.
+    </div>
+
+
+    <div class="left-side-mini col-2">
+        <ul class="list-unstyled d-flex justify-content-evenly">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-google"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li> <i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </div>
