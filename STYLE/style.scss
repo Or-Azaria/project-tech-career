@@ -1,10 +1,9 @@
-@import './header';
-@import './properties';
-@import './navbar';
-@import './footer';
+@import "./header";
+@import "./properties";
+@import "./navbar";
+@import "./footer";
 
-
-*{
-    text-transform: capitalize;
+* {
+  text-transform: capitalize;
+  color: black;
 }
-
